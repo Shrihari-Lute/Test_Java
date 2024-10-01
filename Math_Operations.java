@@ -8,11 +8,11 @@ class MathOperation {
 
     // Method to take input from user for x and y
     void init() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter the value of x: ");
-        x = scanner.nextDouble();
+        x = s.nextDouble();
         System.out.print("Enter the value of y: ");
-        y = scanner.nextDouble();
+        y = s.nextDouble();
     }
 
     // Method for addition of x and y
